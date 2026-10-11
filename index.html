@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fff0f5">
+<title>For Kaifiya 💗 | Happy Birthday</title>
+<style>
+:root{--pink:#ff5c9a;--rose:#c92f6b;--pale:#fff0f5;--ink:#54283d;--soft:#ffe0ec}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:linear-gradient(180deg,#fff8fb,#fff0f5 45%,#fff9fc);overflow-x:hidden}
+button,a{font:inherit}
+button{cursor:pointer}
+.hero{min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;padding:34px 18px;position:relative;overflow:hidden;background:radial-gradient(circle at 15% 20%,#ffe0ec 0 10%,transparent 28%),radial-gradient(circle at 85% 75%,#ffd3e4 0 8%,transparent 26%),linear-gradient(145deg,#fff8fb,#ffeaf2)}
+.hero-inner{max-width:760px;position:relative;z-index:1}
+.eyebrow{letter-spacing:.18em;text-transform:uppercase;font-size:.76rem;color:#b44873;font-weight:750}
+h1{font-family:Georgia,serif;font-size:clamp(3.1rem,12vw,6.7rem);line-height:.98;margin:16px 0;color:#c92f6b}
+h1 span{display:block;font-size:.47em;font-style:italic;color:#e75a91;margin-top:12px}
+.hero p{font-size:clamp(1rem,3vw,1.22rem);max-width:570px;margin:22px auto;line-height:1.7}
+.pill{border:0;border-radius:999px;padding:14px 22px;background:linear-gradient(135deg,#ff77aa,#e84383);color:white;box-shadow:0 10px 24px #d84a8233;font-weight:750;transition:transform .2s}
+.pill:hover{transform:translateY(-2px)}
+.ghost{border:1px solid #ef9dbd;background:#fff9fc;color:#b72e68;border-radius:999px;padding:12px 18px;font-weight:700}
+.hero-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:25px}
+.heart{position:absolute;color:#ed6b9e;opacity:.36;animation:float 7s ease-in-out infinite;font-size:clamp(20px,4vw,38px)}
+@keyframes float{0%,100%{transform:translateY(0) rotate(-8deg)}50%{transform:translateY(-22px) rotate(8deg)}}
+section{padding:76px 18px;scroll-margin-top:20px}
+.wrap{max-width:1000px;margin:auto}
+.section-kicker{text-align:center;color:#d64c83;font-size:.78rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase}
+h2{text-align:center;font:clamp(2rem,7vw,3.2rem)/1.1 Georgia,serif;color:#b92c65;margin:12px 0 18px}
+.intro{text-align:center;max-width:650px;margin:0 auto 32px;line-height:1.75}
+.card{background:#ffffffc9;border:1px solid #f8d0e0;border-radius:24px;box-shadow:0 15px 45px #8d2a4e0b}
+.letter{max-width:760px;margin:auto;padding:clamp(22px,5vw,42px);line-height:1.9;font-size:1.04rem;white-space:normal}
+.letter .salute{font:italic 1.5rem Georgia,serif;color:#c92f6b}
+.signature{font:italic 1.4rem Georgia,serif;color:#c92f6b;margin-top:20px}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.photo{min-height:210px;position:relative;overflow:hidden;border-radius:20px;background:linear-gradient(145deg,#ffd7e6,#fff2f7);border:1px solid #f5c3d7;display:flex;align-items:center;justify-content:center;text-align:center;padding:18px}
+.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}
+.photo.has-image img{display:block}
+.photo.has-image .placeholder{display:none}
+.placeholder{max-width:190px;color:#a33c69}
+.placeholder strong{display:block;font:1.35rem Georgia,serif;margin:10px 0}
+.photo input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer}
+.photo .tag{position:absolute;bottom:10px;left:10px;right:10px;border-radius:999px;padding:6px;background:#fffaf0d9;font-size:.78rem;font-weight:700;z-index:2}
+.small-note{text-align:center;font-size:.9rem;color:#8e5a70;margin-top:14px}
+.surprise-box{padding:30px;text-align:center;max-width:700px;margin:auto}
+.hidden-message{display:none;margin-top:22px;padding:22px;border-radius:18px;background:#fff0f6;line-height:1.8;animation:fade .5s ease}
+.hidden-message.show{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.music-card{max-width:700px;margin:auto;padding:25px;text-align:center;display:flex;gap:18px;align-items:center;justify-content:center;flex-wrap:wrap}
+.disc{height:68px;width:68px;border-radius:50%;background:radial-gradient(circle,#fff 0 8%,#f48bb2 9% 22%,#d8447c 23% 60%,#f7b4ce 61%);box-shadow:0 8px 18px #c92f6b2b}
+.disc.playing{animation:spin 4s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.music-copy{text-align:left;max-width:300px}
+.music-copy strong{display:block;font:1.3rem Georgia,serif;color:#b92c65}
+.music-copy span{font-size:.9rem;color:#8e5a70}
+footer{text-align:center;padding:35px 18px 50px;background:#ffe8f1;color:#9b4269}
+footer .big-heart{font-size:1.8rem}
+#confetti{position:fixed;inset:0;pointer-events:none;z-index:20;overflow:hidden}
+.confetti-piece{position:absolute;top:-20px;font-size:20px;animation:fall 3.5s linear forwards}
+@keyframes fall{to{transform:translateY(110vh) rotate(650deg);opacity:0}}
+@media(max-width:650px){section{padding:58px 15px}.gallery{grid-template-columns:1fr 1fr}.photo{min-height:170px}.photo:last-child{grid-column:1/-1;min-height:190px}.letter{font-size:1rem}.music-copy{text-align:center}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div id="confetti" aria-hidden="true"></div>
+<header class="hero" id="top">
+  <span class="heart" style="left:9%;top:17%">♡</span><span class="heart" style="right:10%;top:22%;animation-delay:1s">♥</span><span class="heart" style="left:18%;bottom:16%;animation-delay:2s">✧</span><span class="heart" style="right:18%;bottom:12%;animation-delay:3s">♡</span>
+  <div class="hero-inner">
+    <div class="eyebrow">A little universe made just for you</div>
+    <h1>Happy Birthday<span>meri pyaari Kaifiya 💗</span></h1>
+    <p>Ek chhoti si website, par ismein chhupa hai tumhare liye mera bahut saara pyaar. You make ordinary days feel magical. ✨</p>
+    <div class="hero-actions">
+      <button class="pill" onclick="document.querySelector('#letter').scrollIntoView({behavior:'smooth'})">Open your love letter 💌</button>
+      <button class="ghost" onclick="celebrate()">Tap for a little magic ✨</button>
+    </div>
+    <p style="font-size:.88rem;color:#a45b79;margin-top:28px">13 October 2026 · Tumhara special day 🎂</p>
+  </div>
+</header>
+<main>
+<section id="letter">
+  <div class="wrap">
+    <div class="section-kicker">From my heart to yours</div><h2>Dear Kaifiya… 💌</h2>
+    <p class="intro">Kuch baatein saamne kehna mushkil hota hai, isliye aaj yeh chhota sa page sirf tumhare naam.</p>
+    <article class="card letter">
+      <div class="salute">Meri pyaari Kaifiya, ❤️</div>
+      <p>Happy Birthday, meri jaan! 🥹💗</p>
+      <p>Tum meri life ka woh beautiful hissa ho jiske aane se sab kuch thoda aur special lagne laga. Tumhari smile mere din ko better bana deti hai, aur tumhari khushi mere liye bahut matter karti hai.</p>
+      <p>Main dua karta hoon ki Allah tumhari zindagi ko khushiyon, sukoon, sehat aur kamyabi se bhar de. Tumhare har ache khwab ko manzil mile, tum hamesha muskurati raho, aur tumhe woh saari mohabbat mile jo tum deserve karti ho. Aameen. 🤲🏻</p>
+      <p>Har din perfect ho zaroori nahi, lekin meri dua hai ki har mushkil mein tumhe himmat mile aur har khushi mein tumhare paas apne log hon. Thank you for being you — sweet, special, and irreplaceable.</p>
+      <p>Aaj ka din tumhara hai, so smile a little extra, make a wish, eat cake, and remember: someone is sending you the biggest hug and lots of love from the heart. 🫂🎂</p>
+      <p><strong>Happy Birthday once again, meri begum-to-be vibes wali favourite person. 💞</strong></p>
+      <div class="signature">Hamesha tumhara, ❤️<br>Shaaz</div>
+    </article>
+  </div>
+</section>
+<section id="memories" style="background:#fff7fa">
+  <div class="wrap">
+    <div class="section-kicker">Little moments, big feelings</div><h2>Our little gallery 📸</h2>
+    <p class="intro">Har photo ke saath ek yaad judi hoti hai. Boxes par tap karke apni photos add karo. Photos is browser mein preview hongi; publish karne se pehle unhe project ke <b>photos</b> folder mein rakh kar HTML mein filenames set karna best rahega.</p>
+    <div class="gallery">
+      <label class="photo"><img alt="Our memory one"><span class="placeholder">♡<strong>Our first memory</strong>Tap to add a photo</span><span class="tag">A favourite moment</span><input type="file" accept="image/*" aria-label="Add first photo" onchange="previewPhoto(this)"></label>
+      <label class="photo"><img alt="Our memory two"><span class="placeholder">✿<strong>Your smile</strong>Tap to add a photo</span><span class="tag">My favourite view</span><input type="file" accept="image/*" aria-label="Add second photo" onchange="previewPhoto(this)"></label>
+      <label class="photo"><img alt="Our memory three"><span class="placeholder">♡<strong>Us, always</strong>Tap to add a photo</span><span class="tag">A memory to keep</span><input type="file" accept="image/*" aria-label="Add third photo" onchange="previewPhoto(this)"></label>
+    </div>
+    <div class="small-note">Tip: choose clear, happy photos you both feel comfortable sharing. 💗</div>
+  </div>
+</section>
+<section id="surprise">
+  <div class="wrap">
+    <div class="section-kicker">Psst… something for you</div><h2>One last little surprise 🎁</h2>
+    <div class="card surprise-box">
+      <p>Kaifiya, ready? This button comes with extra hugs. 🫶🏻</p>
+      <button class="pill" id="surpriseBtn" onclick="revealSurprise()">Tap here, birthday girl 💝</button>
+      <div class="hidden-message" id="hiddenMessage">
+        <div style="font-size:2.5rem">💗🌷🧿</div>
+        <h3 style="font:2rem Georgia,serif;color:#c92f6b;margin:10px 0">You are so loved, Kaifiya.</h3>
+        <p>Kaash main iss moment tumhe ek tight hug de pata. Until then, consider this your unlimited virtual hugs pass. 🫂</p>
+        <p><b>My wish?</b> Tumhari aankhon mein hamesha khushi ho, dil mein sukoon ho, aur zindagi tumhe har woh reason de jiske liye tum muskurao. Love you lots! ❤️</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="music" style="background:#fff7fa">
+  <div class="wrap">
+    <div class="section-kicker">A little melody</div><h2>Press play, my love 🎶</h2>
+    <p class="intro">Play button ek soft, original chime melody banata hai — kisi copyrighted song ki zaroorat nahi. Phone par sound shuru karne ke liye tap karna hoga.</p>
+    <div class="card music-card">
+      <div class="disc" id="disc"></div>
+      <div class="music-copy"><strong>A tiny birthday melody</strong><span>Made with love, just for you 💗</span></div>
+      <button class="pill" id="musicBtn" onclick="toggleMusic()">▶ Play melody</button>
+    </div>
+  </div>
+</section>
+</main>
+<footer><div class="big-heart">💗</div><p>Made with all my love for Kaifiya</p><p style="font:italic 1.15rem Georgia,serif">“Tum meri favourite dua ho.”</p><a href="#top" style="color:#b92c65">Back to the top ↑</a></footer>
+<script>
+function previewPhoto(input){const file=input.files&&input.files[0];if(!file)return;const box=input.closest('.photo'),img=box.querySelector('img');const reader=new FileReader();reader.onload=()=>{img.src=reader.result;box.classList.add('has-image')};reader.readAsDataURL(file)}
+function celebrate(){const area=document.getElementById('confetti');const pieces=['💗','💕','💖','✨','🌸','♥'];for(let i=0;i<34;i++){const el=document.createElement('span');el.className='confetti-piece';el.textContent=pieces[Math.floor(Math.random()*pieces.length)];el.style.left=Math.random()*100+'%';el.style.animationDelay=Math.random()*.9+'s';el.style.fontSize=(16+Math.random()*20)+'px';area.appendChild(el);setTimeout(()=>el.remove(),4500)}}
+function revealSurprise(){document.getElementById('hiddenMessage').classList.add('show');document.getElementById('surpriseBtn').textContent='Surprise unlocked 💗';celebrate()}
+let audioCtx=null, musicTimer=null, musicOn=false, noteIndex=0;
+const notes=[523.25,659.25,783.99,659.25,587.33,698.46,880,783.99,659.25,587.33,523.25,392];
+function playNote(){if(!musicOn||!audioCtx)return;const osc=audioCtx.createOscillator(),gain=audioCtx.createGain();osc.type='sine';osc.frequency.value=notes[noteIndex%notes.length];gain.gain.setValueAtTime(.0001,audioCtx.currentTime);gain.gain.exponentialRampToValueAtTime(.10,audioCtx.currentTime+.04);gain.gain.exponentialRampToValueAtTime(.0001,audioCtx.currentTime+.42);osc.connect(gain);gain.connect(audioCtx.destination);osc.start();osc.stop(audioCtx.currentTime+.44);noteIndex++}
+async function toggleMusic(){const btn=document.getElementById('musicBtn'),disc=document.getElementById('disc');if(musicOn){musicOn=false;clearInterval(musicTimer);btn.textContent='▶ Play melody';disc.classList.remove('playing');return}try{audioCtx=audioCtx||new(window.AudioContext||window.webkitAudioContext)();if(audioCtx.state==='suspended')await audioCtx.resume();musicOn=true;playNote();musicTimer=setInterval(playNote,430);btn.textContent='Ⅱ Pause melody';disc.classList.add('playing')}catch(e){btn.textContent='Sound not supported here'}}
+</script>
+</body>
+</html>
